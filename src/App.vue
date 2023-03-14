@@ -3,6 +3,7 @@
 // App is the PARENT COMPONENT of Home. 
 import Home from './components/Home.vue'
 import Testimonials from './components/Testimonials.vue'
+import Cart from './components/Cart.vue'
 
 // hi y'all, going to number the changes so it's clear to you. 
 
@@ -10,7 +11,8 @@ import Testimonials from './components/Testimonials.vue'
 // see https://vuejs.org/guide/scaling-up/routing.html#simple-routing-from-scratch
 const routes = {
   '/': Home, 
-  '/testimonials': Testimonials
+  '/testimonials': Testimonials,
+  '/cart.html': Cart
 }
 
 export default {

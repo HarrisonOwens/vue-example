@@ -31,6 +31,22 @@ export default {
                 {
                     src: "https://images.squarespace-cdn.com/content/v1/5dd8630d09ab5908e35b35a0/1593362109648-FYSE9T1HR5KEPVE7O9MN/nacho+dog.jpg?format=1000w",
                     hotdog: "nachos"
+                },
+                {
+                    src: "https://i.ibb.co/1rCqC2S/Eggdog.jpg",
+                    hotdog: "Egg"
+                },
+                {
+                    src: "https://i.ibb.co/3TLr0YR/Cheddardog.jpg",
+                    hotdog: "Cheddar"
+                },
+                {
+                    src: "https://i.ibb.co/swr7JHK/Pickledog.png",
+                    hotdog: "Pickle"
+                },
+                {
+                    src: "https://i.ibb.co/WDwff6q/Cookiedog.png",
+                    hotdog: "Cookie"
                 }
             ];
             const res = otherDogs.find(h => h.hotdog == this.hotdog);
@@ -64,11 +80,9 @@ export default {
             <a v-on:click="e => changeData(otherDogs[1])">
                 Put some {{ otherDogs[1].hotdog }} on it
             </a>
-
             <a v-on:click="e => changeData(otherDogs[2])">
                 Put some {{ otherDogs[2].hotdog }} on it
             </a>
-
             <a v-on:click="e => changeData(otherDogs[3])">
                 Put some {{ otherDogs[3].hotdog }} on it
             </a>
@@ -81,7 +95,18 @@ export default {
             <a v-on:click="e => changeData(otherDogs[6])">
                 Put some {{ otherDogs[6].hotdog }} on it
             </a>
-
+            <a v-on:click="e => changeData(otherDogs[7])">
+                Put some {{ otherDogs[7].hotdog }} on it
+            </a>
+            <a v-on:click="e => changeData(otherDogs[8])">
+                Put some {{ otherDogs[8].hotdog }} on it
+            </a>
+            <a v-on:click="e => changeData(otherDogs[9])">
+                Put some {{ otherDogs[9].hotdog }} on it
+            </a>
+            <a v-on:click="e => changeData(otherDogs[10])">
+                Put some {{ otherDogs[10].hotdog }} on it
+            </a>
         </div>
     </body>
 </template>
