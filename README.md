@@ -30,9 +30,9 @@ npm run build
 
 ### Food for Thought:
 
-'''sh
+```sh
 What do our routes look like by this ‘virtual’ page splitting? Why do you think others might not use this routing strategy?
 
 Routing like this lets us avoid full page reloads when accessing different pages (I think). This allows for a much faster user experience, but also requires the routing to be relatively simple.
 Others might not use this routing example becauase they need more complex routing for something that isn't a single page.
-'''
+```
