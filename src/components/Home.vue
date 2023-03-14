@@ -74,7 +74,7 @@ export default {
 <template>
     <body>
         <NavBar></NavBar>
-        <img :src="src" alt="hotdog">
+        <img :src="src" alt="hotdog" width="500" height="500">
         <div class="links">
             <!-- do you think you could wrap this better?-->
             <a v-on:click="e => changeData(otherDogs[1])">

@@ -18,7 +18,7 @@ export default{
 <template>
     <div class="item">
         <body>
-            <img :src= "url" width="100" height="100">
+            <img :src= "url" width="300" height="300">
             <h1>{{name}}</h1>
             <p>{{desc}}</p>
             <p>This is ${{price}}</p>
